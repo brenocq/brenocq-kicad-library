@@ -1597,8 +1597,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "BrenoCQ:FTSH-107-01-L-DV-K-TR"
+			(at 6.35 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
