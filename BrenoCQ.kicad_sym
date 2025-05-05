@@ -1309,8 +1309,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "BrenoCQ:LGA-14L"
+			(at 1.27 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1336,7 +1336,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*LGA-14*"
+		(property "ki_fp_filters" "*LGA-14L*"
 			(at 0 0 0)
 			(effects
 				(font
