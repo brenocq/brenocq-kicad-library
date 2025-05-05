@@ -87,6 +87,17 @@
 		(layer "F.SilkS")
 		(uuid "b654351a-5cb6-4df1-8834-17b5e95624b7")
 	)
+	(fp_rect
+		(start -4.8 -3.8)
+		(end 4.8 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8b428244-d7b1-443a-87ff-9de1938f9796")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 6 0)
 		(unlocked yes)
@@ -184,4 +195,15 @@
 		(uuid "e1bafb90-158c-4d70-bdc9-895733e31683")
 	)
 	(embedded_fonts no)
+	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/FTSH-107-01-L-DV-K-TR.step"
+		(offset
+			(xyz 0 0 0.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

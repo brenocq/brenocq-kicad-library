@@ -1921,8 +1921,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "BrenoCQ:DFN-6-2x2"
+			(at 0.635 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
