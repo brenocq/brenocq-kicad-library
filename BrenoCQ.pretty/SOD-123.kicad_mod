@@ -1,4 +1,4 @@
-(footprint "SOD123"
+(footprint "SOD-123"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "SOD123"
+	(property "Value" "SOD-123"
 		(at -0.1 1.9 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -249,7 +249,7 @@
 		(uuid "e2260e2e-f90f-4dd9-ad2e-887d9ef0af8d")
 	)
 	(embedded_fonts no)
-	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/SOD123.step"
+	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/SOD-123.step"
 		(offset
 			(xyz 0 0 0)
 		)

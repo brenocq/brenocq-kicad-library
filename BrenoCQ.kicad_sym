@@ -343,7 +343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrenoCQ:SOD123"
+		(property "Footprint" "BrenoCQ:SOD-123"
 			(at 1.27 -17.78 0)
 			(effects
 				(font
@@ -760,7 +760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrenoCQ:SOT323"
+		(property "Footprint" "BrenoCQ:SOT-323"
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -787,7 +787,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*SOT-323-3*"
+		(property "ki_fp_filters" "*SOT-323*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4101,8 +4101,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "BrenoCQ:SOT-23-5"
+			(at 12.7 -13.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
