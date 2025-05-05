@@ -6394,8 +6394,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "BrenoCQ:TP_0.5mm"
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
