@@ -2491,8 +2491,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "BrenoCQ:501920-3001"
+			(at 0.635 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
