@@ -2476,7 +2476,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J?"
-			(at 0 0 0)
+			(at -1.27 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,8 +3382,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "BrenoCQ:52991-0308"
+			(at 1.27 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,7 +3392,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/529910308?display=pdf"
-			(at 0 -33.655 0)
+			(at 0 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
