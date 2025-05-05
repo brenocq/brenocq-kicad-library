@@ -4002,7 +4002,7 @@
 			)
 		)
 		(property "Footprint" "BrenoCQ:R_0402"
-			(at 0 -5.715 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,7 +4020,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 -3.81 0)
+			(at 0 -1.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5722,8 +5722,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "BrenoCQ:VSON-8"
+			(at 1.27 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
