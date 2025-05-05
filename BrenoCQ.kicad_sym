@@ -2491,8 +2491,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "BrenoCQ:53048-0310"
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2500,8 +2500,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.farnell.com/datasheets/2697738.pdf"
+			(at 0.635 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
