@@ -5543,8 +5543,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "BrenoCQ:EVPAKE31A"
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
