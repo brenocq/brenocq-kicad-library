@@ -2272,8 +2272,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "BrenoCQ:SOP-8"
+			(at 0.635 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
