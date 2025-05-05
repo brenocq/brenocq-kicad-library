@@ -4246,8 +4246,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "BrenoCQ:LQFP64"
+			(at 0 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
