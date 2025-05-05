@@ -6483,8 +6483,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "BrenoCQ:12402012E212A"
+			(at 1.27 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6493,7 +6493,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/12402012-10.pdf"
-			(at 0 -20.955 0)
+			(at 0 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +6502,7 @@
 			)
 		)
 		(property "Description" "USB2.0, Type C, Top mount, CH 1.68mm, Dual Row SMT"
-			(at 0 -17.78 0)
+			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
