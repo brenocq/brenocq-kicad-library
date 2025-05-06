@@ -13,16 +13,21 @@ To use this library in your KiCad projects:
 
 1.  **Clone or Download:** Get the files from this repository to your local machine.
 2.  **Open KiCad:** Launch the KiCad application.
-3.  **Add Symbol Library:**
-    * Go to `Preferences` -> `Manage Symbol Libraries`.
+3.  **Add library path:**
+    * Go to `Preferences` -> `Configure Paths...`.
+    * Click the `+` icon.
+    * Name the new path variable `BRENOCQ_DIR` and set the path to where you cloned the `brenocq-kicad-library`.
+    * Click 'OK'.
+4.  **Add Symbol Library:**
+    * Go to `Preferences` -> `Manage Symbol Libraries...`.
     * In either the 'Global Libraries' or 'Project Specific Libraries' tab, click the `+` icon.
     * Browse to where you saved the repository files and select the `BrenoCQ.kicad_sym` file.
-    * Click 'OK' to add it.
-4.  **Add Footprint Library:**
-    * Go to `Preferences` -> `Manage Footprint Libraries`.
+    * Click 'OK'.
+5.  **Add Footprint Library:**
+    * Go to `Preferences` -> `Manage Footprint Libraries...`.
     * In either the 'Global Libraries' or 'Project Specific Libraries' tab, click the `+` icon.
     * Browse to where you saved the repository files and select the `BrenoCQ.pretty` **directory** (select the folder itself).
-    * Click 'OK' to add it.
+    * Click 'OK'.
 
 The custom symbols and footprints should now be available in the Symbol Chooser and Footprint Assigner.
 
