@@ -1,25 +1,14 @@
-# BrenoCQ's Personal KiCad Library
-
-This repository contains my personal collection of KiCad library files, including schematic symbols, PCB footprints, and 3D models. I maintain this library to ensure consistency across all my personal hardware design projects and to continuously improve the quality and practicality of the components based on my building and soldering experience.
+# BrenoCQ KiCad Library
+This repository contains my personal collection of KiCad library files, including schematic symbols, PCB footprints, and 3D models.
 
 ## Contents
-
 The repository is structured to hold the main library files:
 
-* `BrenoCQ.kicad_sym`: Contains all my custom schematic symbols.
-* `BrenoCQ.pretty/`: Contains all my custom PCB footprints. This is a directory formatted as a KiCad footprint library.
-* `BrenoCQ.3dshapes/`: Contains the 3D models used by the footprints in `BrenoCQ.pretty/`.
-
-## Philosophy
-
-I maintain this single, unified library for my personal projects because:
-
-* **Component History/Reference:** Maintaining a personal library creates a curated list of components I have experience working with. It serves as a quick reference to easily find and reuse chips and parts that I know have worked well in past projects, saving time on re-evaluation.
-* **Iterative Improvement:** As I build and test projects, I often identify ways to improve footprints (e.g., adjusting pad sizes for easier soldering, refining silkscreen outlines). Keeping them in a central library allows me to make these improvements once and have them benefit all future projects.
-* **Efficiency:** Having my frequently used components readily available saves time compared to creating them from scratch or searching through large, generic libraries.
+* `BrenoCQ.kicad_sym`: Custom schematic symbols.
+* `BrenoCQ.pretty/`: Custom PCB footprints.
+* `BrenoCQ.3dshapes/`: The 3D models used by the footprints in `BrenoCQ.pretty/`.
 
 ## Getting Started (Adding to KiCad)
-
 To use this library in your KiCad projects:
 
 1.  **Clone or Download:** Get the files from this repository to your local machine.
@@ -38,5 +27,4 @@ To use this library in your KiCad projects:
 The custom symbols and footprints should now be available in the Symbol Chooser and Footprint Assigner.
 
 ## License
-
 This library is licensed under the [MIT License](LICENSE).
