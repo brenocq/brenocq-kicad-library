@@ -506,8 +506,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "ECS-3225MVLC-240-CN"
+			(at 13.97 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,7 +5197,7 @@
 			)
 		)
 		(symbol "STM32F446RE_4_0"
-			(unit_name "Power")
+			(unit_name "PWR")
 			(rectangle
 				(start 10.16 12.7)
 				(end -10.16 -10.16)
@@ -5534,13 +5534,12 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "EVPAKE31A"
+			(at 6.35 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "BrenoCQ:EVPAKE31A"
