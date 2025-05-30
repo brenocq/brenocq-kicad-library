@@ -2087,8 +2087,8 @@
 		)
 		(symbol "LDL212PV33R_1_0"
 			(rectangle
-				(start 10.16 7.62)
-				(end -10.16 -2.54)
+				(start -10.16 7.62)
+				(end 10.16 -2.54)
 				(stroke
 					(width 0.0254)
 					(type solid)
@@ -2136,6 +2136,25 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -12.7 0 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4016,8 +4035,8 @@
 		)
 		(symbol "Molex_125MM-4P-H-SMD_1_0"
 			(rectangle
-				(start 0 5.08)
-				(end -5.08 -7.62)
+				(start -5.08 5.08)
+				(end 0 -7.62)
 				(stroke
 					(width 0.0254)
 					(type solid)
@@ -4092,6 +4111,44 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 7.62 0 180)
+				(length 2.54)
+				(hide yes)
+				(name "MP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(hide yes)
+				(name "MP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6121,8 +6178,8 @@
 		)
 		(symbol "TMC6300-LA_1_0"
 			(rectangle
-				(start 12.7 17.78)
-				(end -12.7 -22.86)
+				(start -12.7 17.78)
+				(end 12.7 -22.86)
 				(stroke
 					(width 0)
 					(type solid)
@@ -6467,6 +6524,25 @@
 					)
 				)
 				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 17.78 -17.78 180)
+				(length 5.08)
+				(hide yes)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
 					(effects
 						(font
 							(size 1.27 1.27)
