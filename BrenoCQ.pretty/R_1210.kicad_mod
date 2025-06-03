@@ -57,8 +57,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.723737 -1.4)
-		(end 0.723737 -1.4)
+		(start -0.723737 -1.355)
+		(end 0.723737 -1.355)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -67,8 +67,8 @@
 		(uuid "7b04fde1-0a72-4c5d-a189-e1e7b5ba620c")
 	)
 	(fp_line
-		(start -0.723737 1.31)
-		(end 0.723737 1.31)
+		(start -0.723737 1.355)
+		(end 0.723737 1.355)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -76,85 +76,16 @@
 		(layer "F.SilkS")
 		(uuid "02aeb179-5f1d-4fbe-99e1-826148ce35f9")
 	)
-	(fp_line
-		(start -2.45 -1.625)
-		(end 2.45 -1.625)
+	(fp_rect
+		(start -2.25 -1.4)
+		(end 2.25 1.4)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "e34dd9c2-0f94-4a27-a3d8-5aaea717b3cc")
-	)
-	(fp_line
-		(start -2.45 1.535)
-		(end -2.45 -1.625)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "96525829-c7a9-453e-af33-96664a885f1a")
-	)
-	(fp_line
-		(start 2.45 -1.625)
-		(end 2.45 1.535)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "26c14007-1328-445e-b8a6-4909caab5aae")
-	)
-	(fp_line
-		(start 2.45 1.535)
-		(end -2.45 1.535)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "8ca84db3-a253-499e-9d2a-6b00f46d20d6")
-	)
-	(fp_line
-		(start -1.6 -1.29)
-		(end 1.6 -1.29)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "3b4782bf-304e-4369-906f-d4734f666758")
-	)
-	(fp_line
-		(start -1.6 1.2)
-		(end -1.6 -1.29)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "c939bee3-d9ae-4343-ada7-ec05e3560124")
-	)
-	(fp_line
-		(start 1.6 -1.29)
-		(end 1.6 1.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "65b9a113-ab4b-411a-82f9-94f8070d55b0")
-	)
-	(fp_line
-		(start 1.6 1.2)
-		(end -1.6 1.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "e935b529-bb71-4222-a6e7-f08105835b0e")
+		(uuid "007d122d-dfd6-4992-92ea-38b08d6321f2")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 3.9 0)
@@ -169,14 +100,14 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -1.55 -0.045)
+		(at -1.55 0)
 		(size 1.3 2.65)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.192308)
 		(uuid "09b2bfc5-f587-413e-b396-37c12f77f932")
 	)
 	(pad "2" smd roundrect
-		(at 1.55 -0.045)
+		(at 1.55 0)
 		(size 1.3 2.65)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.192308)
