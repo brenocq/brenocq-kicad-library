@@ -1666,6 +1666,44 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at 15.24 2.54 180)
+				(length 2.54)
+				(hide yes)
+				(name "OCS_Aux"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 15.24 0 180)
+				(length 2.54)
+				(hide yes)
+				(name "SDO_Aux"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at 15.24 -2.54 180)
 				(length 2.54)
@@ -4372,6 +4410,25 @@
 				)
 			)
 			(pin passive line
+				(at 2.54 -5.08 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 22.86 0 180)
 				(length 2.54)
 				(name "OUT"
@@ -5728,7 +5785,7 @@
 			)
 		)
 		(property "Footprint" "BrenoCQ:EVPAKE31A"
-			(at 0 -7.62 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,7 +5794,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000C434.pdf"
-			(at 0 -5.08 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5746,7 +5803,7 @@
 			)
 		)
 		(property "Description" "3.8 mm x 1.9 mm Side-operational SMD Light Touch Switches"
-			(at 0 -2.54 0)
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,6 +5899,25 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 2.54 -2.54 0)
+				(length 1.27)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
