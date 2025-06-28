@@ -1,4 +1,4 @@
-(footprint "2202050471"
+(footprint "220205-0471"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "2202050471"
+	(property "Value" "220205-0471"
 		(at 0.1 7.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -289,7 +289,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/2202050471.step"
+	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/220205-0471.step"
 		(offset
 			(xyz 0 9.5 0.75)
 		)

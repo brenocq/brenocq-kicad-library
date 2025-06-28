@@ -4197,7 +4197,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Molex_MicroLock_2R-4P-H-SMD"
+	(symbol "Molex_MicroLock_2MM-2R-4P-H-SMD"
 		(pin_numbers
 			(hide yes)
 		)
@@ -4212,7 +4212,7 @@
 				)
 			)
 		)
-		(property "Value" "2202050471"
+		(property "Value" "220205-0471"
 			(at 0.635 -11.43 0)
 			(effects
 				(font
@@ -4220,7 +4220,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BrenoCQ:2202050471"
+		(property "Footprint" "BrenoCQ:220205-0471"
 			(at 0 -19.05 0)
 			(effects
 				(font
@@ -4247,7 +4247,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Molex_MicroLock_2R-4P-H-SMD_1_0"
+		(symbol "Molex_MicroLock_2MM-2R-4P-H-SMD_1_0"
 			(rectangle
 				(start -2.54 2.54)
 				(end 2.54 -10.16)
@@ -4336,14 +4336,14 @@
 				(at 10.16 -2.54 180)
 				(length 2.54)
 				(hide yes)
-				(name "MC1"
+				(name "MP1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "MC1"
+				(number "MP1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4355,14 +4355,190 @@
 				(at 10.16 -5.08 180)
 				(length 2.54)
 				(hide yes)
-				(name "MC2"
+				(name "MP2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "MC2"
+				(number "MP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Molex_MicroLock_2MM-4P-H-SMD"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J?"
+			(at -1.27 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "505578-0460"
+			(at 0.635 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BrenoCQ:505578-0460"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/5055780460?display=pdf"
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.00mm Pitch, Micro-Lock Plus PCB Header, Single Row, Right-Angle, Surface Mount, 0.10µm Gold Plating, Positive Lock, 4 Circuits, Low-Halogen, Natural (White)"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Molex_MicroLock_2MM-4P-H-SMD_1_0"
+			(rectangle
+				(start -2.54 2.54)
+				(end 2.54 -10.16)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -7.62 0)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(hide yes)
+				(name "MP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(hide yes)
+				(name "MP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP2"
 					(effects
 						(font
 							(size 1.27 1.27)
