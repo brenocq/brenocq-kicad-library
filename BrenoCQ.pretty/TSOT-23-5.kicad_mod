@@ -1,9 +1,9 @@
-(footprint "SOT-23-5"
+(footprint "TSOT-23-5"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Compact 5-lead SOT-23 surface mount package. Max height typically 1.1mm - 1.45mm")
+	(descr "Thin 5-lead SOT-23 surface mount package. Max height 1.0mm")
 	(property "Reference" "REF**"
 		(at 0 -2.7 0)
 		(unlocked yes)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SOT-23-5"
+	(property "Value" "TSOT-23-5"
 		(at 0 3.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -145,7 +145,7 @@
 		(uuid "0a5ceccb-a2fb-404f-86a5-2aa4fe644909")
 	)
 	(embedded_fonts no)
-	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/SOT-23-5.step"
+	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/TSOT-23-5.step"
 		(offset
 			(xyz 0 0 0)
 		)
