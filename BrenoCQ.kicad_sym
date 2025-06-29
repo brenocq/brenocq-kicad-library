@@ -7094,7 +7094,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TPS2120"
+	(symbol "TPS2121"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7106,7 +7106,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS2120"
+		(property "Value" "TPS2121"
 			(at 6.35 17.78 0)
 			(effects
 				(font
@@ -7114,8 +7114,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "BrenoCQ:VQFN-HR-12"
+			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7132,7 +7132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TPS2120 2.8-V to 22-V Priority Power MUX with Seamless Switchover"
+		(property "Description" "TPS2121 2.8-V to 22-V Priority Power MUX with Seamless Switchover"
 			(at 0 -8.89 0)
 			(effects
 				(font
@@ -7141,7 +7141,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TPS2120_1_1"
+		(symbol "TPS2121_1_1"
 			(rectangle
 				(start -11.43 16.51)
 				(end 10.16 -6.35)
@@ -7174,7 +7174,7 @@
 			(pin input line
 				(at -13.97 11.43 0)
 				(length 2.54)
-				(name "PRI"
+				(name "PR1"
 					(effects
 						(font
 							(size 1.27 1.27)
