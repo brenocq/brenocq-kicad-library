@@ -75,15 +75,15 @@
 		(uuid "bbffacec-71bf-4c82-8f3d-cb6395b2aa68")
 	)
 	(fp_circle
-		(center -3.3 -2.7)
-		(end -3.3 -2.8)
+		(center -2.407794 -2.528022)
+		(end -2.344294 -2.528022)
 		(stroke
-			(width 0.2)
+			(width 0.127)
 			(type solid)
 		)
-		(fill yes)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "6c68440b-bf9b-4c2d-98aa-f1fea70ea02c")
+		(uuid "35030a1c-22db-4ed6-80b1-27aa1ec1be17")
 	)
 	(fp_rect
 		(start -3.7 -2.8)
