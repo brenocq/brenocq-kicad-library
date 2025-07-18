@@ -56,8 +56,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.340012 2.070007)
-		(end -1.340019 2.19701)
+		(start -1.807996 2.070007)
+		(end -1.808003 2.19701)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -66,8 +66,8 @@
 		(uuid "464254d7-addb-46ac-867c-543edce6f961")
 	)
 	(fp_line
-		(start -1.340005 -2.120994)
-		(end -1.340012 -1.993976)
+		(start -1.8 -2.120994)
+		(end -1.800007 -1.993976)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -76,8 +76,8 @@
 		(uuid "5595a4a9-b276-402f-ad81-918a7a557bd7")
 	)
 	(fp_line
-		(start -0.324013 2.197017)
-		(end -1.340019 2.19701)
+		(start -0.791997 2.197017)
+		(end -1.808003 2.19701)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -86,8 +86,8 @@
 		(uuid "d157f4c2-3d9d-4f73-9f94-c5f16a751033")
 	)
 	(fp_line
-		(start -0.323999 -2.120987)
-		(end -1.340005 -2.120994)
+		(start -0.783994 -2.120987)
+		(end -1.8 -2.120994)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -128,81 +128,12 @@
 			)
 		)
 	)
-	(pad "1" smd rect
-		(at -1.039032 -1.362)
-		(size 1.1 0.7)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "edbf8f57-412e-4c0a-be21-c1205acce0bf")
-	)
-	(pad "2" smd rect
-		(at -1.039011 1.438009)
-		(size 1.1 0.7)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "04fcda29-26d2-41bc-8bee-4cacaadf5a9c")
-	)
-	(pad "NC" smd rect
-		(at -1.18901 0.038001)
-		(size 1.1 1.4)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "81cb8ff7-d147-456b-961c-aa39c29865d8")
-	)
-	(pad "NC" thru_hole circle
-		(at 0.294656 1.889631 180)
-		(size 0.55 0.55)
-		(drill 0.55)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(thermal_bridge_angle 90)
-		(uuid "7dab37c6-2476-486e-ad5b-167fb0e8b93b")
-	)
-	(pad "NC" smd circle
-		(at 0.310976 1.888004)
-		(size 0.0254 0.0254)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 90)
-		(uuid "47a557c1-b5bb-4543-8bbd-6dfeeda0c5af")
-	)
-	(pad "NC" smd circle
-		(at 0.31099 -1.811988)
-		(size 0.0254 0.0254)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 90)
-		(uuid "4ccefb2a-7de8-488b-8d66-cf7fc1fed112")
-	)
-	(pad "NC" thru_hole circle
-		(at 0.327317 -1.813608)
-		(size 0.55 0.55)
-		(drill 0.55)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(thermal_bridge_angle 90)
-		(uuid "22a7c68f-14a9-4c49-8263-73b805dbbbd0")
-	)
-	(pad "NC" smd custom
-		(at 0.610973 1.187997 225)
+	(pad "" np_thru_hole custom
+		(at 0 -1.85 225)
 		(size 0.000001 0.000001)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.075)
-		(solder_paste_margin 0.000001)
-		(thermal_bridge_angle 90)
-		(options
-			(clearance outline)
-			(anchor circle)
+		(drill 0.55
+			(offset 0.35 -0.75)
 		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0 0) (xy 0.90936 0.08059) (xy 1.30815 -0.3182) (xy 0.35356 -1.2728) (xy -0.45962 -0.45963)
-				)
-				(width 0)
-				(fill yes)
-			)
-		)
-		(uuid "b8d93c8b-55c0-4bfc-93a3-aed479b2b27b")
-	)
-	(pad "NC" smd custom
-		(at 0.610994 -1.111988 225)
-		(size 0.000001 0.000001)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.075)
 		(solder_paste_margin 0.000001)
@@ -221,6 +152,63 @@
 			)
 		)
 		(uuid "5ad54616-963f-44cc-9049-cfaeea8d29f4")
+	)
+	(pad "" np_thru_hole custom
+		(at 0 1.85 135)
+		(size 0.000001 0.000001)
+		(drill 0.55
+			(offset 0.35 0.75)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.075)
+		(solder_paste_margin 0.000001)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 0) (xy 0.0806 -0.90935) (xy -0.3182 -1.30815) (xy -1.27279 -0.35355) (xy -0.45962 0.45962)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "85c9e931-931b-4f3a-a1a8-61629bb7c101")
+	)
+	(pad "1" smd rect
+		(at -1.35 -1.4)
+		(size 1.1 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "edbf8f57-412e-4c0a-be21-c1205acce0bf")
+	)
+	(pad "2" smd rect
+		(at -1.35 1.4)
+		(size 1.1 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "04fcda29-26d2-41bc-8bee-4cacaadf5a9c")
+	)
+	(pad "NC" smd rect
+		(at -1.5 0.038001)
+		(size 1.1 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "81cb8ff7-d147-456b-961c-aa39c29865d8")
+	)
+	(pad "NC" smd circle
+		(at 0.310976 1.888004)
+		(size 0.0254 0.0254)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "47a557c1-b5bb-4543-8bbd-6dfeeda0c5af")
+	)
+	(pad "NC" smd circle
+		(at 0.31099 -1.811988)
+		(size 0.0254 0.0254)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "4ccefb2a-7de8-488b-8d66-cf7fc1fed112")
 	)
 	(embedded_fonts no)
 	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/EVPAKE31A.step"
