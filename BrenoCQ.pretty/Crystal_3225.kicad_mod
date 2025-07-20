@@ -199,7 +199,7 @@
 		(uuid "8aab68a0-7cf9-499a-92b2-e9f7e36e6857")
 	)
 	(embedded_fonts no)
-	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/Crystal_3225.step"
+	(model "../BrenoCQ.3dshapes/Crystal_3225.step"
 		(offset
 			(xyz 0 0 0)
 		)

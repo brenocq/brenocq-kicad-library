@@ -211,7 +211,7 @@
 		(uuid "4ccefb2a-7de8-488b-8d66-cf7fc1fed112")
 	)
 	(embedded_fonts no)
-	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/EVPAKE31A.step"
+	(model "../BrenoCQ.3dshapes/EVPAKE31A.step"
 		(offset
 			(xyz -1.188484 -0.005508 0.8)
 		)

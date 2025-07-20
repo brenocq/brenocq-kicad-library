@@ -153,7 +153,7 @@
 		(uuid "554dd15a-9b80-4a4b-8653-ffe82445cb38")
 	)
 	(embedded_fonts no)
-	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/LED-1515.step"
+	(model "../BrenoCQ.3dshapes/LED-1515.step"
 		(offset
 			(xyz 0 0 0)
 		)

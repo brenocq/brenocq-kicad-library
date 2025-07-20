@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "Molex USB 2.0 Type-C ")
 	(property "Reference" "REF**"
-		(at 0.2 -12.9 0)
+		(at -2.8 -6.1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "cf9b4009-7009-4dcc-b4cf-3c32452587ae")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "217179-0001"
-		(at 0 10.7 0)
+		(at 0 3.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a63a6d9a-0ba7-4b07-87c2-bae27b8c11a5")
@@ -117,7 +117,7 @@
 		(uuid "aece2ada-ad07-4503-b773-1f67883de491")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 12.2 0)
+		(at 0 5.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "29728628-0b21-4b7c-bc66-9ba0a9599350")
@@ -233,7 +233,7 @@
 		(uuid "421bb0c2-be81-4f40-80c9-edba4e052d88")
 	)
 	(embedded_fonts no)
-	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/217179-0001.step"
+	(model "../BrenoCQ.3dshapes/217179-0001.step"
 		(offset
 			(xyz 0 1.3 0)
 		)

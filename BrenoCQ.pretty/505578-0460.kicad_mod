@@ -336,7 +336,7 @@
 		(uuid "09d3ef0e-0ba5-4ed9-a217-8500cffdeeb2")
 	)
 	(embedded_fonts no)
-	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/505578-0460.step"
+	(model "../BrenoCQ.3dshapes/505578-0460.step"
 		(offset
 			(xyz 0 6.9 -0.7)
 		)

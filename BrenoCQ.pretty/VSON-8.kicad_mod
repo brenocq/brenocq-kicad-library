@@ -173,7 +173,7 @@
 		(uuid "acd75ce6-d870-4e49-8795-8a829e61ed46")
 	)
 	(embedded_fonts no)
-	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/VSON-8.step"
+	(model "../BrenoCQ.3dshapes/VSON-8.step"
 		(offset
 			(xyz 0 0 0)
 		)

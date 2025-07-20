@@ -289,7 +289,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/220205-0471.step"
+	(model "../BrenoCQ.3dshapes/220205-0471.step"
 		(offset
 			(xyz 0 9.5 0.75)
 		)

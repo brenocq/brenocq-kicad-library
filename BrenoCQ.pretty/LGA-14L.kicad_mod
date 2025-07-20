@@ -266,7 +266,7 @@
 		(uuid "a494ff33-e816-4442-b898-0ca8bb7079ed")
 	)
 	(embedded_fonts no)
-	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/LGA-14L.step"
+	(model "../BrenoCQ.3dshapes/LGA-14L.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -113,7 +113,7 @@
 		(uuid "3abb89b5-6d77-43c5-8bfa-588a83d03a13")
 	)
 	(embedded_fonts no)
-	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/KRL1220.step"
+	(model "../BrenoCQ.3dshapes/KRL1220.step"
 		(offset
 			(xyz 0 0 0)
 		)

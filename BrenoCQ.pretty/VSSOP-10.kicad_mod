@@ -246,7 +246,7 @@
 		(uuid "8773b97a-9681-4e20-a4dd-345d56a7c631")
 	)
 	(embedded_fonts no)
-	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/VSSOP-10.step"
+	(model "../BrenoCQ.3dshapes/VSSOP-10.step"
 		(offset
 			(xyz 0 0 0)
 		)

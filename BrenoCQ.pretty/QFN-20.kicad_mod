@@ -275,7 +275,7 @@
 		(uuid "4267fee2-b473-4c96-a155-5e07bac231c0")
 	)
 	(embedded_fonts no)
-	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/QFN-20.step"
+	(model "../BrenoCQ.3dshapes/QFN-20.step"
 		(offset
 			(xyz 0 0 0)
 		)

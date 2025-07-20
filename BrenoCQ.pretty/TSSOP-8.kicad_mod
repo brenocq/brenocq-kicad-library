@@ -165,7 +165,7 @@
 		(uuid "7fce8d0d-d7fe-4ef6-82bd-1044edb76754")
 	)
 	(embedded_fonts no)
-	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/TSSOP-8.step"
+	(model "../BrenoCQ.3dshapes/TSSOP-8.step"
 		(offset
 			(xyz 0 0 0.6)
 		)

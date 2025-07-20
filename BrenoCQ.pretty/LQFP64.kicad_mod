@@ -767,7 +767,7 @@
 		(uuid "e4e07e4c-b266-4e71-a9e1-d16c92e9ecd1")
 	)
 	(embedded_fonts no)
-	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/LQFP64.step"
+	(model "../BrenoCQ.3dshapes/LQFP64.step"
 		(offset
 			(xyz 0 0 0)
 		)
