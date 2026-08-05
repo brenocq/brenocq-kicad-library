@@ -4478,13 +4478,13 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "LED_Dual_RG"
+	(symbol "LED_LTST-S326KGJRKT"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U?"
+		(property "Reference" "D?"
 			(at 2.54 4.445 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4494,7 +4494,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_Dual_RG"
+		(property "Value" "LED_LTST-S326KGJRKT"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4559,7 +4559,7 @@
 				)
 			)
 		)
-		(symbol "LED_Dual_RG_0_1"
+		(symbol "LED_LTST-S326KGJRKT_0_1"
 			(polyline
 				(pts
 					(xy -2.54 4.32) (xy -2.54 0.76)
@@ -4633,7 +4633,7 @@
 				)
 			)
 		)
-		(symbol "LED_Dual_RG_1_1"
+		(symbol "LED_LTST-S326KGJRKT_1_1"
 			(pin passive line
 				(at -5.08 2.54 0)
 				(length 2.54)
