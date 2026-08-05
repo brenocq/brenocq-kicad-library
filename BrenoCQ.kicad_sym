@@ -4478,6 +4478,219 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "LED_Dual_RG"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U?"
+			(at 2.54 4.445 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Dual_RG"
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BrenoCQ:LED_S326"
+			(at 0 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_SMD-green-red_C125116.html"
+			(at 0 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual-color red/yellow-green side-view LED, common anode (pin 3=A, pin 1/2=cathodes)"
+			(at 0 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-S326KGJRKT"
+			(at 0 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C125116"
+			(at 0 -20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "LED_Dual_RG_0_1"
+			(polyline
+				(pts
+					(xy -2.54 4.32) (xy -2.54 0.76)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -0.76) (xy -2.54 -4.32)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 4.06) (xy -2.54 2.54) (xy 0 0.76) (xy 0 4.06)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 2.54 2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.02) (xy -2.54 -2.54) (xy 0 -4.32) (xy 0 -1.02)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LED_Dual_RG_1_1"
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "LED_SK6805-EC15"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7464,7 +7677,7 @@
 			)
 		)
 		(property "Footprint" "BrenoCQ:RPI5_CM5"
-			(at 15.24 -40.64 0)
+			(at 15.24 -42.545 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -7476,7 +7689,7 @@
 			)
 		)
 		(property "Datasheet" "https://pip-assets.raspberrypi.com/categories/944-raspberry-pi-compute-module-5/documents/RP-008180-DS-7-cm5-datasheet.pdf"
-			(at -21.59 -46.355 0)
+			(at -21.59 -48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -7488,7 +7701,7 @@
 			)
 		)
 		(property "Description" "Raspberry Pi 5 Compute Module"
-			(at 26.035 -43.18 0)
+			(at 26.035 -45.085 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -10798,7 +11011,7 @@
 				)
 			)
 			(pin input line
-				(at 48.26 -21.59 180)
+				(at 48.26 -22.86 180)
 				(length 5.08)
 				(name "Fan_tacho"
 					(effects
@@ -10816,7 +11029,7 @@
 				)
 			)
 			(pin output line
-				(at 48.26 -24.13 180)
+				(at 48.26 -25.4 180)
 				(length 5.08)
 				(name "Fan_PWM"
 					(effects
@@ -10834,7 +11047,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -16.51 0)
+				(at 0 -15.24 0)
 				(length 5.08)
 				(name "EEPROM_nWP"
 					(effects
@@ -10870,7 +11083,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -36.83 0)
+				(at 0 -35.56 0)
 				(length 5.08)
 				(name "VBAT"
 					(effects
@@ -10888,7 +11101,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -31.75 180)
+				(at 48.26 -33.02 180)
 				(length 5.08)
 				(name "I2C_SCL0"
 					(effects
@@ -10906,7 +11119,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -34.29 180)
+				(at 48.26 -35.56 180)
 				(length 5.08)
 				(name "I2C_SDA0"
 					(effects
@@ -10960,7 +11173,7 @@
 				)
 			)
 			(pin passive line
-				(at 48.26 -11.43 180)
+				(at 48.26 -12.7 180)
 				(length 5.08)
 				(name "PWR_Button"
 					(effects
@@ -10978,7 +11191,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -21.59 0)
+				(at 0 -20.32 0)
 				(length 5.08)
 				(name "~{nRPIBOOT}"
 					(effects
@@ -10996,7 +11209,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -29.21 0)
+				(at 0 -27.94 0)
 				(length 5.08)
 				(name "CC1"
 					(effects
@@ -11014,7 +11227,7 @@
 				)
 			)
 			(pin output line
-				(at 48.26 -6.35 180)
+				(at 48.26 -7.62 180)
 				(length 5.08)
 				(name "~{PI_LED_nPWR}"
 					(effects
@@ -11032,7 +11245,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -31.75 0)
+				(at 0 -30.48 0)
 				(length 5.08)
 				(name "CC2"
 					(effects
@@ -11068,7 +11281,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -24.13 0)
+				(at 0 -22.86 0)
 				(length 5.08)
 				(name "PMIC_ENABLE"
 					(effects
