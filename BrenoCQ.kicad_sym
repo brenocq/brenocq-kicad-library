@@ -4867,6 +4867,155 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "LED_XL-2835UGC-05"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D?"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_XL-2835UGC-05"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BrenoCQ:LED-2835"
+			(at 0 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2843879.pdf"
+			(at 0 -8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Green 520nm 2835 SMD LED"
+			(at 0 -11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "LED_XL-2835UGC-05_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.3005 1.7537) (xy -1.3005 -1.8063)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.2395 1.4937) (xy -1.3005 -0.0263) (xy 1.2395 -1.8063) (xy 1.2395 1.4937)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LED_XL-2835UGC-05_1_1"
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "MP2315GJ-Z"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11001,7 +11150,7 @@
 		(symbol "RPI5_CM5_10_1"
 			(rectangle
 				(start 5.08 2.54)
-				(end 43.18 -40.64)
+				(end 35.56 -40.64)
 				(stroke
 					(width 0)
 					(type solid)
@@ -11011,7 +11160,7 @@
 				)
 			)
 			(pin input line
-				(at 48.26 -22.86 180)
+				(at 40.64 -22.86 180)
 				(length 5.08)
 				(name "Fan_tacho"
 					(effects
@@ -11029,7 +11178,7 @@
 				)
 			)
 			(pin output line
-				(at 48.26 -25.4 180)
+				(at 40.64 -25.4 180)
 				(length 5.08)
 				(name "Fan_PWM"
 					(effects
@@ -11065,7 +11214,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 48.26 -2.54 180)
+				(at 40.64 -2.54 180)
 				(length 5.08)
 				(name "~{Pi_nLED_Activity}"
 					(effects
@@ -11101,7 +11250,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -33.02 180)
+				(at 40.64 -33.02 180)
 				(length 5.08)
 				(name "I2C_SCL0"
 					(effects
@@ -11119,7 +11268,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -35.56 180)
+				(at 40.64 -35.56 180)
 				(length 5.08)
 				(name "I2C_SDA0"
 					(effects
@@ -11173,7 +11322,7 @@
 				)
 			)
 			(pin passive line
-				(at 48.26 -12.7 180)
+				(at 40.64 -12.7 180)
 				(length 5.08)
 				(name "PWR_Button"
 					(effects
@@ -11227,7 +11376,7 @@
 				)
 			)
 			(pin output line
-				(at 48.26 -7.62 180)
+				(at 40.64 -7.62 180)
 				(length 5.08)
 				(name "~{PI_LED_nPWR}"
 					(effects
