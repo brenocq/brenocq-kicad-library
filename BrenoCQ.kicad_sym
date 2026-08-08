@@ -3536,7 +3536,7 @@
 				)
 			)
 		)
-		(property "LCSC" "TODO"
+		(property "LCSC" "C2655101"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5016,17 +5016,6 @@
 		)
 		(property "Description" "Dual-color red/yellow-green side-view LED, common anode (pin 3=A, pin 1/2=cathodes)"
 			(at 0 -15.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "LTST-S326KGJRKT"
-			(at 0 -17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -7702,7 +7691,7 @@
 				)
 			)
 		)
-		(property "LCSC" "TODO"
+		(property "LCSC" "C277393"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8480,7 +8469,7 @@
 				)
 			)
 		)
-		(property "LCSC" "TODO"
+		(property "LCSC" "C6782225"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14591,7 +14580,7 @@
 				)
 			)
 		)
-		(property "LCSC" "TODO"
+		(property "LCSC" "C569760"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
