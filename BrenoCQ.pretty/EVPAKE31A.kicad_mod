@@ -1,14 +1,14 @@
 (footprint "EVPAKE31A"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "3.8 mm x 1.9 mm Side-operational SMD Light Touch Switches")
 	(property "Reference" "REF**"
 		(at 0 -3.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "b7434dbb-84d5-4b68-a4e4-e1062c006147")
+		(uuid "2b8b2e59-428d-498d-b877-441a07a762ef")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 3.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "efdeb6fa-c5d5-443c-b897-147d106d3759")
+		(uuid "a1e2d6bd-c454-4909-b57e-f171e0f5ff60")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "643b4a76-848e-48ce-ae9c-68082dc8da2a")
+		(uuid "76525e66-bed3-442a-adec-8f7baeee2630")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3e0de3b9-c258-4b22-91ca-c7d9934341cb")
+		(uuid "06b01ab8-00a0-46a1-8e3c-ee22fa33847c")
 		(effects
 			(font
 				(size 1 1)
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.807996 2.070007)
 		(end -1.808003 2.19701)
@@ -63,7 +64,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "464254d7-addb-46ac-867c-543edce6f961")
+		(uuid "dd60f0b9-406f-418a-ab58-1cd9e471a84b")
 	)
 	(fp_line
 		(start -1.8 -2.120994)
@@ -73,7 +74,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5595a4a9-b276-402f-ad81-918a7a557bd7")
+		(uuid "741eac86-7f45-4d76-b1c8-71d80a6d63b1")
 	)
 	(fp_line
 		(start -0.791997 2.197017)
@@ -83,7 +84,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d157f4c2-3d9d-4f73-9f94-c5f16a751033")
+		(uuid "afff7c7d-0a66-4f35-b65c-fba87073c923")
 	)
 	(fp_line
 		(start -0.783994 -2.120987)
@@ -93,7 +94,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d653bb1e-85a2-4fd2-827f-d27bab60f48c")
+		(uuid "ced4dc8d-98c9-49cd-97f0-f9d4ac2bfbaf")
 	)
 	(fp_line
 		(start 1.199986 -0.723984)
@@ -103,7 +104,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a036feb0-087b-4da6-a8e2-0919993f12aa")
+		(uuid "9102193c-e778-428c-83ca-1d0364ad0bbb")
 	)
 	(fp_rect
 		(start -2 -2.6)
@@ -114,13 +115,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "9c39d394-737f-4014-bdfe-c978e2d93499")
+		(uuid "f01a6bd4-1736-4a04-8235-e69a0e09a8ea")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 5.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ffe244e9-e832-4566-b711-8899f46f85ac")
+		(uuid "3d546453-18d4-413b-abe5-530065eb0169")
 		(effects
 			(font
 				(size 1 1)
@@ -151,7 +152,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "5ad54616-963f-44cc-9049-cfaeea8d29f4")
+		(uuid "1f612267-e84d-46ac-a735-d1b8f5db516e")
 	)
 	(pad "" np_thru_hole custom
 		(at 0 1.85 135)
@@ -176,39 +177,25 @@
 				(fill yes)
 			)
 		)
-		(uuid "85c9e931-931b-4f3a-a1a8-61629bb7c101")
+		(uuid "2714ff02-d20f-4423-878b-dbb201bfae96")
 	)
 	(pad "1" smd rect
 		(at -1.35 -1.4)
 		(size 1.1 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "edbf8f57-412e-4c0a-be21-c1205acce0bf")
+		(uuid "6ae60a19-0a03-454e-a3e5-8526ecc93f35")
 	)
 	(pad "2" smd rect
 		(at -1.35 1.4)
 		(size 1.1 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "04fcda29-26d2-41bc-8bee-4cacaadf5a9c")
+		(uuid "4b64eeb2-2ca0-496d-86fa-3ea2f8079a4d")
 	)
 	(pad "NC" smd rect
 		(at -1.5 0.038001)
 		(size 1.1 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "81cb8ff7-d147-456b-961c-aa39c29865d8")
-	)
-	(pad "NC" smd circle
-		(at 0.310976 1.888004)
-		(size 0.0254 0.0254)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 90)
-		(uuid "47a557c1-b5bb-4543-8bbd-6dfeeda0c5af")
-	)
-	(pad "NC" smd circle
-		(at 0.31099 -1.811988)
-		(size 0.0254 0.0254)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 90)
-		(uuid "4ccefb2a-7de8-488b-8d66-cf7fc1fed112")
+		(uuid "f8ab4de9-b289-4325-b885-49b4245477a4")
 	)
 	(embedded_fonts no)
 	(model "${BRENOCQ_DIR}/BrenoCQ.3dshapes/EVPAKE31A.step"
